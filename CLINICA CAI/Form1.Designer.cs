@@ -52,22 +52,11 @@
             this.button6 = new System.Windows.Forms.Button();
             this.button7 = new System.Windows.Forms.Button();
             this.label12 = new System.Windows.Forms.Label();
-            this.textBox6 = new System.Windows.Forms.TextBox();
-            this.textBox8 = new System.Windows.Forms.TextBox();
-            this.label13 = new System.Windows.Forms.Label();
-            this.label14 = new System.Windows.Forms.Label();
             this.label15 = new System.Windows.Forms.Label();
-            this.label16 = new System.Windows.Forms.Label();
-            this.textBox9 = new System.Windows.Forms.TextBox();
-            this.textBox10 = new System.Windows.Forms.TextBox();
-            this.textBox11 = new System.Windows.Forms.TextBox();
-            this.label17 = new System.Windows.Forms.Label();
-            this.button4 = new System.Windows.Forms.Button();
-            this.button8 = new System.Windows.Forms.Button();
             this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.comboBox1 = new System.Windows.Forms.ComboBox();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            this.comboBox2 = new System.Windows.Forms.ComboBox();
+            this.dateTimePicker2 = new System.Windows.Forms.DateTimePicker();
             this.SuspendLayout();
             // 
             // printPreviewDialog1
@@ -298,43 +287,6 @@
             this.label12.TabIndex = 23;
             this.label12.Text = "Especialidad";
             // 
-            // textBox6
-            // 
-            this.textBox6.Location = new System.Drawing.Point(219, 384);
-            this.textBox6.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(153, 21);
-            this.textBox6.TabIndex = 24;
-            // 
-            // textBox8
-            // 
-            this.textBox8.Location = new System.Drawing.Point(219, 325);
-            this.textBox8.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
-            this.textBox8.Name = "textBox8";
-            this.textBox8.Size = new System.Drawing.Size(153, 21);
-            this.textBox8.TabIndex = 26;
-            // 
-            // label13
-            // 
-            this.label13.AutoSize = true;
-            this.label13.Location = new System.Drawing.Point(50, 498);
-            this.label13.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(83, 15);
-            this.label13.TabIndex = 27;
-            this.label13.Text = "Diagnostico";
-            this.label13.Click += new System.EventHandler(this.label13_Click);
-            // 
-            // label14
-            // 
-            this.label14.AutoSize = true;
-            this.label14.Location = new System.Drawing.Point(50, 528);
-            this.label14.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(105, 15);
-            this.label14.TabIndex = 28;
-            this.label14.Text = "Historia Clinica";
-            // 
             // label15
             // 
             this.label15.AutoSize = true;
@@ -344,87 +296,12 @@
             this.label15.Size = new System.Drawing.Size(0, 15);
             this.label15.TabIndex = 29;
             // 
-            // label16
-            // 
-            this.label16.AutoSize = true;
-            this.label16.Location = new System.Drawing.Point(50, 564);
-            this.label16.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(168, 15);
-            this.label16.TabIndex = 30;
-            this.label16.Text = "Medicamentos prescritos";
-            this.label16.Click += new System.EventHandler(this.label16_Click);
-            // 
-            // textBox9
-            // 
-            this.textBox9.Location = new System.Drawing.Point(219, 564);
-            this.textBox9.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
-            this.textBox9.Name = "textBox9";
-            this.textBox9.Size = new System.Drawing.Size(153, 21);
-            this.textBox9.TabIndex = 31;
-            // 
-            // textBox10
-            // 
-            this.textBox10.Location = new System.Drawing.Point(219, 528);
-            this.textBox10.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
-            this.textBox10.Name = "textBox10";
-            this.textBox10.Size = new System.Drawing.Size(153, 21);
-            this.textBox10.TabIndex = 32;
-            // 
-            // textBox11
-            // 
-            this.textBox11.Location = new System.Drawing.Point(219, 492);
-            this.textBox11.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
-            this.textBox11.Name = "textBox11";
-            this.textBox11.Size = new System.Drawing.Size(153, 21);
-            this.textBox11.TabIndex = 33;
-            // 
-            // label17
-            // 
-            this.label17.AutoSize = true;
-            this.label17.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label17.Location = new System.Drawing.Point(386, 444);
-            this.label17.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(108, 16);
-            this.label17.TabIndex = 34;
-            this.label17.Text = "Ficha Medicos";
-            // 
-            // button4
-            // 
-            this.button4.Location = new System.Drawing.Point(553, 561);
-            this.button4.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(100, 27);
-            this.button4.TabIndex = 35;
-            this.button4.Text = "Guardar";
-            this.button4.UseVisualStyleBackColor = true;
-            // 
-            // button8
-            // 
-            this.button8.Location = new System.Drawing.Point(679, 558);
-            this.button8.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
-            this.button8.Name = "button8";
-            this.button8.Size = new System.Drawing.Size(100, 27);
-            this.button8.TabIndex = 36;
-            this.button8.Text = "Cancelar";
-            this.button8.UseVisualStyleBackColor = true;
-            // 
             // dateTimePicker1
             // 
             this.dateTimePicker1.Location = new System.Drawing.Point(219, 128);
             this.dateTimePicker1.Name = "dateTimePicker1";
             this.dateTimePicker1.Size = new System.Drawing.Size(145, 21);
             this.dateTimePicker1.TabIndex = 37;
-            // 
-            // dataGridView1
-            // 
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(394, 349);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(152, 92);
-            this.dataGridView1.TabIndex = 38;
-            this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
             // 
             // comboBox1
             // 
@@ -439,28 +316,37 @@
             this.comboBox1.TabIndex = 39;
             this.comboBox1.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
             // 
+            // comboBox2
+            // 
+            this.comboBox2.FormattingEnabled = true;
+            this.comboBox2.Items.AddRange(new object[] {
+            "CLINCIA MEDICA",
+            "OFTALMOLOGIA",
+            "CARDIOLOGIA"});
+            this.comboBox2.Location = new System.Drawing.Point(217, 385);
+            this.comboBox2.Name = "comboBox2";
+            this.comboBox2.Size = new System.Drawing.Size(159, 23);
+            this.comboBox2.TabIndex = 40;
+            // 
+            // dateTimePicker2
+            // 
+            this.dateTimePicker2.Location = new System.Drawing.Point(219, 329);
+            this.dateTimePicker2.Name = "dateTimePicker2";
+            this.dateTimePicker2.Size = new System.Drawing.Size(153, 21);
+            this.dateTimePicker2.TabIndex = 41;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-            this.ClientSize = new System.Drawing.Size(1067, 623);
+            this.ClientSize = new System.Drawing.Size(1067, 443);
+            this.Controls.Add(this.dateTimePicker2);
+            this.Controls.Add(this.comboBox2);
             this.Controls.Add(this.comboBox1);
-            this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.dateTimePicker1);
-            this.Controls.Add(this.button8);
-            this.Controls.Add(this.button4);
-            this.Controls.Add(this.label17);
-            this.Controls.Add(this.textBox11);
-            this.Controls.Add(this.textBox10);
-            this.Controls.Add(this.textBox9);
-            this.Controls.Add(this.label16);
             this.Controls.Add(this.label15);
-            this.Controls.Add(this.label14);
-            this.Controls.Add(this.label13);
-            this.Controls.Add(this.textBox8);
-            this.Controls.Add(this.textBox6);
             this.Controls.Add(this.label12);
             this.Controls.Add(this.button7);
             this.Controls.Add(this.button6);
@@ -488,7 +374,6 @@
             this.Name = "Form1";
             this.Text = "Solicitud de Turnos";
             this.Load += new System.EventHandler(this.Form1_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -519,21 +404,11 @@
         private System.Windows.Forms.Button button6;
         private System.Windows.Forms.Button button7;
         private System.Windows.Forms.Label label12;
-        private System.Windows.Forms.TextBox textBox6;
-        private System.Windows.Forms.TextBox textBox8;
-        private System.Windows.Forms.Label label13;
-        private System.Windows.Forms.Label label14;
         private System.Windows.Forms.Label label15;
-        private System.Windows.Forms.Label label16;
-        private System.Windows.Forms.TextBox textBox9;
-        private System.Windows.Forms.TextBox textBox10;
-        private System.Windows.Forms.TextBox textBox11;
-        private System.Windows.Forms.Label label17;
-        private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.Button button8;
         private System.Windows.Forms.DateTimePicker dateTimePicker1;
-        private System.Windows.Forms.DataGridView dataGridView1;
         private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.ComboBox comboBox2;
+        private System.Windows.Forms.DateTimePicker dateTimePicker2;
     }
 }
 

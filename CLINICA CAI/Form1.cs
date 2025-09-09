@@ -20,16 +20,6 @@ namespace CLINICA_CAI
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            dataGridView1.Columns.Clear();
-
-            // 2. Add columns
-            dataGridView1.Columns.Add("ID", "Student ID");
-            dataGridView1.Columns.Add("Name", "Student Name");
-            dataGridView1.Columns.Add("Grade", "Grade Level");
-
-            // 3. Add rows and populate data
-            dataGridView1.Rows.Add("001", "Alice Smith", "10");
-            dataGridView1.Rows.Add("002", "Bob Johnson", "11");
         }
 
         private void textBox1_TextChanged(object sender, EventArgs e)
