@@ -42,14 +42,12 @@
             this.label7 = new System.Windows.Forms.Label();
             this.textBox4 = new System.Windows.Forms.TextBox();
             this.textBox5 = new System.Windows.Forms.TextBox();
-            this.button3 = new System.Windows.Forms.Button();
             this.button5 = new System.Windows.Forms.Button();
             this.label8 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
             this.label11 = new System.Windows.Forms.Label();
             this.button6 = new System.Windows.Forms.Button();
-            this.button7 = new System.Windows.Forms.Button();
             this.label12 = new System.Windows.Forms.Label();
             this.label15 = new System.Windows.Forms.Label();
             this.comboBox1 = new System.Windows.Forms.ComboBox();
@@ -57,6 +55,9 @@
             this.dateTimePicker2 = new System.Windows.Forms.DateTimePicker();
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
+            this.button3 = new System.Windows.Forms.Button();
+            this.label13 = new System.Windows.Forms.Label();
+            this.textBox3 = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // printPreviewDialog1
@@ -129,7 +130,7 @@
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(139, 16);
             this.label3.TabIndex = 5;
-            this.label3.Text = "Carga del paciente";
+            this.label3.Text = "Datos del Paciente";
             // 
             // label4
             // 
@@ -188,19 +189,9 @@
             this.textBox5.Size = new System.Drawing.Size(153, 21);
             this.textBox5.TabIndex = 13;
             // 
-            // button3
-            // 
-            this.button3.Location = new System.Drawing.Point(553, 224);
-            this.button3.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(100, 27);
-            this.button3.TabIndex = 14;
-            this.button3.Text = "Guardar";
-            this.button3.UseVisualStyleBackColor = true;
-            // 
             // button5
             // 
-            this.button5.Location = new System.Drawing.Point(679, 378);
+            this.button5.Location = new System.Drawing.Point(767, 459);
             this.button5.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(100, 27);
@@ -251,23 +242,13 @@
             // 
             // button6
             // 
-            this.button6.Location = new System.Drawing.Point(553, 378);
+            this.button6.Location = new System.Drawing.Point(595, 459);
             this.button6.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.button6.Name = "button6";
             this.button6.Size = new System.Drawing.Size(100, 27);
             this.button6.TabIndex = 21;
             this.button6.Text = "Guardar";
             this.button6.UseVisualStyleBackColor = true;
-            // 
-            // button7
-            // 
-            this.button7.Location = new System.Drawing.Point(679, 224);
-            this.button7.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
-            this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(100, 27);
-            this.button7.TabIndex = 22;
-            this.button7.Text = "Cancelar";
-            this.button7.UseVisualStyleBackColor = true;
             // 
             // label12
             // 
@@ -335,13 +316,44 @@
             this.dateTimePicker1.Size = new System.Drawing.Size(153, 21);
             this.dateTimePicker1.TabIndex = 43;
             // 
+            // button3
+            // 
+            this.button3.Location = new System.Drawing.Point(804, 41);
+            this.button3.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(100, 27);
+            this.button3.TabIndex = 44;
+            this.button3.Text = "Agregar";
+            this.button3.UseVisualStyleBackColor = true;
+            // 
+            // label13
+            // 
+            this.label13.AutoSize = true;
+            this.label13.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label13.Location = new System.Drawing.Point(54, 416);
+            this.label13.Name = "label13";
+            this.label13.Size = new System.Drawing.Size(60, 13);
+            this.label13.TabIndex = 45;
+            this.label13.Text = "Coseguro";
+            // 
+            // textBox3
+            // 
+            this.textBox3.Location = new System.Drawing.Point(217, 414);
+            this.textBox3.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.textBox3.Name = "textBox3";
+            this.textBox3.Size = new System.Drawing.Size(153, 21);
+            this.textBox3.TabIndex = 46;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-            this.ClientSize = new System.Drawing.Size(1067, 443);
+            this.ClientSize = new System.Drawing.Size(1067, 517);
+            this.Controls.Add(this.textBox3);
+            this.Controls.Add(this.label13);
+            this.Controls.Add(this.button3);
             this.Controls.Add(this.dateTimePicker1);
             this.Controls.Add(this.textBox2);
             this.Controls.Add(this.dateTimePicker2);
@@ -349,14 +361,12 @@
             this.Controls.Add(this.comboBox1);
             this.Controls.Add(this.label15);
             this.Controls.Add(this.label12);
-            this.Controls.Add(this.button7);
             this.Controls.Add(this.button6);
             this.Controls.Add(this.label11);
             this.Controls.Add(this.label10);
             this.Controls.Add(this.label9);
             this.Controls.Add(this.label8);
             this.Controls.Add(this.button5);
-            this.Controls.Add(this.button3);
             this.Controls.Add(this.textBox5);
             this.Controls.Add(this.textBox4);
             this.Controls.Add(this.label7);
@@ -394,14 +404,12 @@
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.TextBox textBox4;
         private System.Windows.Forms.TextBox textBox5;
-        private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Button button5;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.Label label11;
         private System.Windows.Forms.Button button6;
-        private System.Windows.Forms.Button button7;
         private System.Windows.Forms.Label label12;
         private System.Windows.Forms.Label label15;
         private System.Windows.Forms.ComboBox comboBox1;
@@ -409,6 +417,9 @@
         private System.Windows.Forms.DateTimePicker dateTimePicker2;
         private System.Windows.Forms.TextBox textBox2;
         private System.Windows.Forms.DateTimePicker dateTimePicker1;
+        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Label label13;
+        private System.Windows.Forms.TextBox textBox3;
     }
 }
 
